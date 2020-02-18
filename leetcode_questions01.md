@@ -1,3 +1,29 @@
+## Q11. Container With Most Water
+Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.  
+__Sol:__
+```python
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        i = 0
+        j = len(height) - 1
+        maxarea = 0
+        # im, jm = i, j
+        
+        while i < j:
+            x, y = height[i], height[j]
+            area = (j - i) * min(x, y)
+            if area > maxarea:
+                maxarea = area
+                # im, jm = i, j
+            if x < y:
+                i += 1
+            else:
+                j -= 1
+                
+        return maxarea
+        
+```
+
 ## Q5. Longest Palindromic Substring
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
