@@ -1,5 +1,38 @@
 ## Q12. Integer to Roman
-Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
+Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.  
+__Sol:__
+```python
+class Solution:
+    def intToRoman(self, num: int) -> str:
+        denom = 1000
+        mp = {
+            1000: 'M',
+            500: 'D',
+            100: 'C',
+            50: 'L',
+            10: 'X',
+            5: 'V',
+            1: 'I'
+        }
+        res = ''
+        
+        while num > 0:
+            curr = num // denom
+            if curr <= 3:
+                res = res + mp[denom] * curr
+            elif curr == 4:
+                res = res + mp[denom] + mp[denom * 5]
+            elif curr <= 8:
+                dup = curr - 5
+                res = res + mp[denom * 5] + mp[denom]*dup
+            else:
+                dup = 10 - curr
+                res = res + mp[denom] * dup + mp[denom * 10]
+            num = num - curr * denom
+            denom = denom // 10
+            
+        return res
+```
 
 ## Q11. Container With Most Water
 Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.  
