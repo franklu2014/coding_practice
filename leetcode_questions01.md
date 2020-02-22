@@ -1,3 +1,34 @@
+## Q756. Pyramid Transition Matrix
+https://leetcode.com/problems/pyramid-transition-matrix/
+We are stacking blocks to form a pyramid. Each block has a color which is a one letter string.  We are allowed to place any color block C on top of two adjacent blocks of colors A and B, if and only if ABC is an allowed triple.  
+__Sol:__
+```python
+class Solution:
+    def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
+        
+        # scan throught the allowed combinations
+        # so that the we only look at the allowed upper blocks in constant time
+        dic = dict()
+        for s in allowed:
+            dic.setdefault(s[0 : 2], []).append(s[2])
+        
+        def dfs(i, old, new):
+            for c in dic.setdefault(old[i : i+2], []):
+                res = False
+                if len(old) == 2 and len(new + c) == 1:
+                    return True
+                elif i >= len(old) - 2:
+                    res = dfs(0, new + c, '')
+                else:
+                    res = dfs(i + 1, old, new + c)
+                if res:
+                    return True
+            return False
+            
+        return dfs(0, bottom, '')
+        
+```
+
 ## Q1145. Binary Tree Coloring Game
 https://leetcode.com/problems/binary-tree-coloring-game/
 
