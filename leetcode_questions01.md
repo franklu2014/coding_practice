@@ -1,3 +1,6 @@
+## Q22. Generate Parentheses
+https://leetcode.com/problems/generate-parentheses/submissions/
+
 ## Q19. Remove Nth Node From End of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
 
