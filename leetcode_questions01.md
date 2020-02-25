@@ -1,4 +1,5 @@
 ## Q554. Brick Wall ****
+https://leetcode.com/problems/brick-wall/submissions/
 
 ## Q22. Generate Parentheses
 https://leetcode.com/problems/generate-parentheses/submissions/
