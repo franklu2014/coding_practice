@@ -1,3 +1,6 @@
+## Q19. Remove Nth Node From End of List
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
+
 ## Q756. Pyramid Transition Matrix
 https://leetcode.com/problems/pyramid-transition-matrix/  
 We are stacking blocks to form a pyramid. Each block has a color which is a one letter string.  We are allowed to place any color block C on top of two adjacent blocks of colors A and B, if and only if ABC is an allowed triple.  
