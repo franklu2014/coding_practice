@@ -1,3 +1,7 @@
+## Q945. Minimum Increment to Make Array Unique
+__must re-visit__  
+https://leetcode.com/problems/minimum-increment-to-make-array-unique/
+
 ## Q1218. Longest Arithmetic Subsequence of Given Difference
 _Must re-visit_  
 https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
