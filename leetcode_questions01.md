@@ -1,3 +1,7 @@
+## Q1218. Longest Arithmetic Subsequence of Given Difference
+_Must re-visit_  
+https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
+
 ## Q388. Longest Absolute File Path ***
 https://leetcode.com/problems/longest-absolute-file-path/submissions/
 
