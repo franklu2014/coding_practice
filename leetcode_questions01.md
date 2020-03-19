@@ -1,3 +1,6 @@
+## Q341. Flatten Nested List Iterator  
+https://leetcode.com/problems/flatten-nested-list-iterator/submissions/
+
 ## Q945. Minimum Increment to Make Array Unique
 __must re-visit__  
 https://leetcode.com/problems/minimum-increment-to-make-array-unique/
