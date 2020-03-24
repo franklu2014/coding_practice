@@ -1,3 +1,17 @@
+## Q930. Binary Subarrays With Sum
+__must re-visit; spent long time to figure out__  
+In an array A of 0s and 1s, how many non-empty subarrays have sum S?
+https://leetcode.com/problems/binary-subarrays-with-sum/submissions/  
+def numSubarraysWithSum(self, A: List[int], S: int) -> int:
+        ret = subtot = 0
+        cnt = {0: 1}
+        for n in A:
+            subtot += n
+            if subtot - S in cnt:
+                ret += cnt[subtot - S]
+            cnt[subtot] = 1 + cnt[subtot] if subtot in cnt else 1
+        return ret
+
 ## Q391. Perfect Rectangle
 __must re-vist__
 https://leetcode.com/problems/perfect-rectangle/submissions/
