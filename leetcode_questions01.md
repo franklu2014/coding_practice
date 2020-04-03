@@ -1,5 +1,6 @@
 ## Q850. Rectangle Area II
-_re-visit_ https://leetcode.com/problems/rectangle-area-ii/submissions/
+_re-visit_  
+https://leetcode.com/problems/rectangle-area-ii/submissions/
 
 ## Q930. Binary Subarrays With Sum
 __must re-visit; spent long time to figure out__  
@@ -18,7 +19,7 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 ```
 
 ## Q391. Perfect Rectangle
-__must re-vist__
+__must re-vist__  
 https://leetcode.com/problems/perfect-rectangle/submissions/
 
 ## Q103. Binary Tree Zigzag Level Order Traversal
@@ -28,7 +29,7 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissio
 https://leetcode.com/problems/split-linked-list-in-parts/submissions/
 
 ## Q130. Surrounded Regions  
-__must re-visit__
+__must re-visit__  
 https://leetcode.com/problems/surrounded-regions/submissions/
 
 ## Q341. Flatten Nested List Iterator  
