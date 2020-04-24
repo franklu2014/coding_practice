@@ -1,8 +1,8 @@
-##Q44. Wildcard Matching  
+## Q44. Wildcard Matching  
 __not done yet__  
 https://leetcode.com/problems/wildcard-matching/
 
-##Q10. Regular Expression Matching
+## Q10. Regular Expression Matching
 __must re-visit__; spent long time to figure out  
 https://leetcode.com/problems/regular-expression-matching/submissions/
 
