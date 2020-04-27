@@ -1,9 +1,10 @@
 ## Q44. Wildcard Matching  
-__not done yet__  
-https://leetcode.com/problems/wildcard-matching/
+__should re-visit with Q10__  
+https://leetcode.com/problems/wildcard-matching/submissions/
 
 ## Q10. Regular Expression Matching
 __must re-visit__; spent long time to figure out  
+_might exist a non-dp solution_
 https://leetcode.com/problems/regular-expression-matching/submissions/
 
 ## Q850. Rectangle Area II
