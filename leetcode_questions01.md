@@ -1,9 +1,13 @@
+## Q72. Edit Distance
+_re-visit_; DP, lru_cache  
+https://leetcode.com/problems/edit-distance/submissions/
+
 ## Q44. Wildcard Matching  
-__should re-visit with Q10__  
+__should re-visit with Q10__; DP  
 https://leetcode.com/problems/wildcard-matching/submissions/
 
 ## Q10. Regular Expression Matching
-__must re-visit__; spent long time to figure out  
+__must re-visit__; spent long time to figure out; DP  
 _might exist a non-dp solution_
 https://leetcode.com/problems/regular-expression-matching/submissions/
 
