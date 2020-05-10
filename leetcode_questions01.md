@@ -1,3 +1,13 @@
+## Q45. Jump Game II  
+_re-visit_; tricky; somewhat similar to Q850  
+https://leetcode.com/problems/jump-game-ii/submissions/
+
+## Q850. Rectangle Area II
+_re-visit_; keep max of overlapping values  
+https://leetcode.com/problems/rectangle-area-ii/submissions/
+
+=======================================================
+
 ## Q72. Edit Distance
 _re-visit_; DP, lru_cache  
 https://leetcode.com/problems/edit-distance/submissions/
@@ -10,10 +20,6 @@ https://leetcode.com/problems/wildcard-matching/submissions/
 __must re-visit__; spent long time to figure out; DP  
 _might exist a non-dp solution_
 https://leetcode.com/problems/regular-expression-matching/submissions/
-
-## Q850. Rectangle Area II
-_re-visit_  
-https://leetcode.com/problems/rectangle-area-ii/submissions/
 
 ## Q930. Binary Subarrays With Sum
 __must re-visit__; *spent long time to figure out*  
