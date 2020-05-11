@@ -1,5 +1,11 @@
+## Q55. Jump Game  
+https://leetcode.com/problems/jump-game/submissions/
+
+## Q1306. Jump Game III  
+https://leetcode.com/problems/jump-game-iii/submissions/
+
 ## Q45. Jump Game II  
-_re-visit_; tricky; somewhat similar to Q850  
+__must re-visit__; tricky; somewhat similar to Q850  
 https://leetcode.com/problems/jump-game-ii/submissions/
 
 ## Q850. Rectangle Area II
