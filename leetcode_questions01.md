@@ -19,6 +19,9 @@ https://leetcode.com/problems/rectangle-area-ii/submissions/
 
 =======================================================
 
+## Q746. Min Cost Climbing Stairs
+https://leetcode.com/problems/min-cost-climbing-stairs/submissions/
+
 ## Q72. Edit Distance
 _re-visit_; DP, lru_cache  
 https://leetcode.com/problems/edit-distance/submissions/
