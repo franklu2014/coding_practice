@@ -10,7 +10,8 @@ https://leetcode.com/problems/jump-game/submissions/
 https://leetcode.com/problems/jump-game-iii/submissions/
 
 ## Q45. Jump Game II  
-__must re-visit__<span style="red">tripped again on 2020-07-30</span>; somewhat similar to Q850  
+__must re-visit__; somewhat similar to Q850  
+<span style="red">tripped again on 2020-07-30</span>  
 https://leetcode.com/problems/jump-game-ii/submissions/
 
 ## Q850. Rectangle Area II
