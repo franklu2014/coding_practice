@@ -1,46 +1,55 @@
-## Q144. Binary Tree Preorder Traversal
+- Q144. Binary Tree Preorder Traversal
 https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/
 
-======================================
+---
 
-## Q55. Jump Game  
+- Q55. Jump Game  
 https://leetcode.com/problems/jump-game/submissions/
 
-## Q1306. Jump Game III  
+- Q1306. Jump Game III  
 https://leetcode.com/problems/jump-game-iii/submissions/
 
-## Q45. Jump Game II  
-__must re-visit__; somewhat similar to Q850  
-<span style="color:red">tripped again on 2020-07-30</span>  
+- Q45. Jump Game II  
+<span style="color:red">__must re-visit__</span>  
+_tripped again on 2020-07-30 & 2020-08-04_  
 https://leetcode.com/problems/jump-game-ii/submissions/
 
-## Q850. Rectangle Area II
+---
+## overlapping ranges
+
+- Q850. Rectangle Area II  
 _re-visit_; keep max of overlapping values  
 https://leetcode.com/problems/rectangle-area-ii/submissions/
 
-=======================================================
+- Q732. My Calendar III  
+https://leetcode.com/problems/my-calendar-iii/submissions/
 
-## Q843. Guess the Word
-*very interesting*  
+- Q729. My Calendar I  
+https://leetcode.com/problems/my-calendar-i/submissions/
+
+---
+
+- Q843. Guess the Word  
+_very interesting_  
 https://leetcode.com/problems/guess-the-word/submissions/
 
-## Q746. Min Cost Climbing Stairs
+- Q746. Min Cost Climbing Stairs
 https://leetcode.com/problems/min-cost-climbing-stairs/submissions/
 
-## Q72. Edit Distance
+- Q72. Edit Distance  
 _re-visit_; DP, lru_cache  
 https://leetcode.com/problems/edit-distance/submissions/
 
-## Q44. Wildcard Matching  
+- Q44. Wildcard Matching  
 __should re-visit with Q10__; DP  
 https://leetcode.com/problems/wildcard-matching/submissions/
 
-## Q10. Regular Expression Matching
+- Q10. Regular Expression Matching
 __must re-visit__; spent long time to figure out; DP  
 _might exist a non-dp solution_
 https://leetcode.com/problems/regular-expression-matching/submissions/
 
-## Q930. Binary Subarrays With Sum
+- Q930. Binary Subarrays With Sum
 __must re-visit__; *spent long time to figure out*  
 In an array A of 0s and 1s, how many non-empty subarrays have sum S?
 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/  
@@ -56,57 +65,57 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
         return ret
 ```
 
-## Q391. Perfect Rectangle
+- Q391. Perfect Rectangle
 __must re-vist__  
 https://leetcode.com/problems/perfect-rectangle/submissions/
 
-## Q103. Binary Tree Zigzag Level Order Traversal
+- Q103. Binary Tree Zigzag Level Order Traversal
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/
 
-## Q725. Split Linked List in Parts  
+- Q725. Split Linked List in Parts  
 https://leetcode.com/problems/split-linked-list-in-parts/submissions/
 
-## Q130. Surrounded Regions  
+- Q130. Surrounded Regions  
 __must re-visit__  
 https://leetcode.com/problems/surrounded-regions/submissions/
 
-## Q341. Flatten Nested List Iterator  
+- Q341. Flatten Nested List Iterator  
 https://leetcode.com/problems/flatten-nested-list-iterator/submissions/
 
-## Q945. Minimum Increment to Make Array Unique
+- Q945. Minimum Increment to Make Array Unique
 __must re-visit__  
 https://leetcode.com/problems/minimum-increment-to-make-array-unique/
 
-## Q1218. Longest Arithmetic Subsequence of Given Difference
+- Q1218. Longest Arithmetic Subsequence of Given Difference
 _re-visit_  
 https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
 
-## Q388. Longest Absolute File Path ***
+- Q388. Longest Absolute File Path ***
 https://leetcode.com/problems/longest-absolute-file-path/submissions/
 
-## Q554. Brick Wall ****
+- Q554. Brick Wall ****
 https://leetcode.com/problems/brick-wall/submissions/
 
-## Q22. Generate Parentheses
+- Q22. Generate Parentheses
 https://leetcode.com/problems/generate-parentheses/submissions/
 
-## Q19. Remove Nth Node From End of List
+- Q19. Remove Nth Node From End of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
 
-## Q756. Pyramid Transition Matrix
+- Q756. Pyramid Transition Matrix
 https://leetcode.com/problems/pyramid-transition-matrix/  
 We are stacking blocks to form a pyramid. Each block has a color which is a one letter string.  We are allowed to place any color block C on top of two adjacent blocks of colors A and B, if and only if ABC is an allowed triple.  
 __Sol:__
 ```python
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
-        
+
         # scan throught the allowed combinations
         # so that the we only look at the allowed upper blocks in constant time
         dic = dict()
         for s in allowed:
             dic.setdefault(s[0 : 2], []).append(s[2])
-        
+
         def dfs(i, old, new):
             for c in dic.setdefault(old[i : i+2], []):
                 res = False
@@ -119,15 +128,15 @@ class Solution:
                 if res:
                     return True
             return False
-            
+
         return dfs(0, bottom, '')
-        
+
 ```
 
-## Q1145. Binary Tree Coloring Game
+- Q1145. Binary Tree Coloring Game
 https://leetcode.com/problems/binary-tree-coloring-game/
 
-## Q12. Integer to Roman
+- Q12. Integer to Roman
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.  
 __Sol:__
 ```python
@@ -144,7 +153,7 @@ class Solution:
             1: 'I'
         }
         res = ''
-        
+
         while num > 0:
             curr = num // denom
             if curr <= 3:
@@ -159,11 +168,11 @@ class Solution:
                 res = res + mp[denom] * dup + mp[denom * 10]
             num = num - curr * denom
             denom = denom // 10
-            
+
         return res
 ```
 
-## Q11. Container With Most Water
+- Q11. Container With Most Water
 Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.  
 __Sol:__
 ```python
@@ -173,7 +182,7 @@ class Solution:
         j = len(height) - 1
         maxarea = 0
         # im, jm = i, j
-        
+
         while i < j:
             x, y = height[i], height[j]
             area = (j - i) * min(x, y)
@@ -184,12 +193,12 @@ class Solution:
                 i += 1
             else:
                 j -= 1
-                
+
         return maxarea
-        
+
 ```
 
-## Q5. Longest Palindromic Substring
+- Q5. Longest Palindromic Substring
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
 __Sol 1:__ This has the best time and space complexity
@@ -200,7 +209,7 @@ class Solution:
             l -= 1
             r += 1
         return l+1, r-1
-        
+
     def longestPalindrome(self, s: str) -> str:
         # self.s = s
         left = 0
@@ -231,13 +240,13 @@ class Solution:
             i += 1
             j -= 1
         return True
-    
+
     def longestPalindrome(self, s: str) -> str:
         length = len(s)
         size = len(s)
         res = ''
         ifFind = False
-        
+
         while(size > 0 and not ifFind):
             i = 0
             while(i + size <= length):
@@ -247,18 +256,18 @@ class Solution:
                     break
                 i += 1
             size -= 1
-            
+
         return res
 ```
 __Sol 3:__ Dynamic programming technique; works but slow
 ```python
 class Solution:
-    
+
     def longestPalindrome(self, s: str) -> str:
         ll = len(s)
         mp = [[True]*ll for i in range(ll)]
         mx = (0, (0, 0))
-        
+
         for i in range(1, ll, 1):
             c = s[i]
             for row in range(i-1, -1, -1):
@@ -269,7 +278,7 @@ class Solution:
         return s[mx[1][0] : mx[1][1]+1]
 ```
 
-## Q3. Longest Substring Without Repeating Characters
+- Q3. Longest Substring Without Repeating Characters
 Given a string, find the length of the longest substring without repeating characters.
 
 __Sol:__
@@ -294,6 +303,6 @@ class Solution:
                 else:
                     res = list(c)
             prev = c
-            
+
         return len(res) if len(res) > n_max else n_max
 ```
