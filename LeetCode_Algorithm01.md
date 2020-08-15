@@ -15,7 +15,7 @@ _tripped again on 2020-07-30 & 2020-08-04_
 https://leetcode.com/problems/jump-game-ii/submissions/
 
 ---
-## overlapping ranges
+## overlapping segments
 
 - Q850. Rectangle Area II  
 _re-visit_; keep max of overlapping values  
@@ -25,7 +25,22 @@ https://leetcode.com/problems/rectangle-area-ii/submissions/
 https://leetcode.com/problems/my-calendar-iii/submissions/
 
 - Q729. My Calendar I  
-https://leetcode.com/problems/my-calendar-i/submissions/
+https://leetcode.com/problems/my-calendar-i/submissions/  
+
+- Q731. My Calendar II  
+https://leetcode.com/problems/my-calendar-ii/submissions/  
+
+- Q855. Exam Room
+https://leetcode.com/problems/exam-room/submissions/  
+
+- __coordinate compression__  
+    - Q699. Falling Squares  
+    _re-visit_  
+    https://leetcode.com/problems/falling-squares/submissions/
+
+    - Q218. The Skyline Problem  
+    __must re-visit__
+    https://leetcode.com/problems/the-skyline-problem/submissions/
 
 ---
 
