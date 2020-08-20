@@ -43,6 +43,14 @@ https://leetcode.com/problems/exam-room/submissions/
     https://leetcode.com/problems/the-skyline-problem/submissions/
 
 ---
+## binary search for minimizing maximum or maximizing minimum
+- 1552. Magnetic Force Between Two Balls
+https://leetcode.com/problems/magnetic-force-between-two-balls/
+
+- 410. Split Array Largest Sum
+https://leetcode.com/problems/split-array-largest-sum/
+
+---
 
 - Q843. Guess the Word  
 _very interesting_  
