@@ -44,11 +44,16 @@ https://leetcode.com/problems/exam-room/submissions/
 
 ---
 ## binary search for minimizing maximum or maximizing minimum
-- 1552. Magnetic Force Between Two Balls
+The LeetCode page for similar questions: https://leetcode.com/problems/magnetic-force-between-two-balls/discuss/794070/Python-Binary-search-solution-with-explanation-and-similar-questions  
+
+- Q1552. Magnetic Force Between Two Balls
 https://leetcode.com/problems/magnetic-force-between-two-balls/
 
-- 410. Split Array Largest Sum
-https://leetcode.com/problems/split-array-largest-sum/
+- Q410. Split Array Largest Sum
+https://leetcode.com/problems/split-array-largest-sum/  
+
+- Q875. Koko Eating Bananas
+https://leetcode.com/problems/koko-eating-bananas/submissions/
 
 ---
 
