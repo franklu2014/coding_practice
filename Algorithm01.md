@@ -56,6 +56,10 @@ https://leetcode.com/problems/split-array-largest-sum/
 https://leetcode.com/problems/koko-eating-bananas/submissions/
 
 ---
+## DP questions
+
+- The Minion Game
+https://www.hackerrank.com/challenges/the-minion-game/problem
 
 - Q843. Guess the Word  
 _very interesting_  
@@ -92,6 +96,12 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
             cnt[subtot] = 1 + cnt[subtot] if subtot in cnt else 1
         return ret
 ```
+---
+## Don't have category yet but interesting
+
+- Lily's Homework  
+_re-visit_  
+https://www.hackerrank.com/challenges/lilys-homework/problem
 
 - Q391. Perfect Rectangle
 __must re-vist__  
@@ -138,8 +148,8 @@ __Sol:__
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
 
-        # scan throught the allowed combinations
-        # so that the we only look at the allowed upper blocks in constant time
+        # scan through the allowed combinations
+        # so that we only look at the allowed upper blocks in constant time
         dic = dict()
         for s in allowed:
             dic.setdefault(s[0 : 2], []).append(s[2])
