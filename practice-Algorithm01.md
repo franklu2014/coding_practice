@@ -99,7 +99,14 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 ---
 ## Don't have category yet but interesting
 
-- Lily's Homework  
+- Between Two Sets (GCF & LCM)
+__must re-visit; tripped several times__
+https://www.hackerrank.com/challenges/between-two-sets/problem
+
+- Forming a Magic Square (implement beautiful 3x3 matrix)
+https://www.hackerrank.com/challenges/magic-square-forming/problem
+
+- Lily's Homework (sort bidirectionally)  
 _re-visit_  
 https://www.hackerrank.com/challenges/lilys-homework/problem
 
