@@ -1,3 +1,23 @@
+- Print prime numbers
+https://www.hackerrank.com/challenges/print-prime-numbers/problem  
+```sql
+with recursive tmp(n) as (
+    select 2
+    union all
+    select n + 1
+    from tmp
+    where n < 1000
+)
+select group_concat(t1.n separator '&')
+from tmp as t1
+where not exists (
+    select * 
+    from tmp as t2
+    where t2.n <= sqrt(t1.n)
+         and t1.n % t2.n = 0
+)
+```
+
 - Calculate median
 _re-visit_
 https://www.hackerrank.com/challenges/weather-observation-station-20/problem

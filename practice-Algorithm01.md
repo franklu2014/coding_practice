@@ -99,6 +99,9 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 ---
 ## Don't have category yet but interesting
 
+- Non-Divisible Subset (evenly divisible)  
+https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=false
+
 - Between Two Sets (GCF & LCM)
 __must re-visit; tripped several times__
 https://www.hackerrank.com/challenges/between-two-sets/problem
