@@ -1,5 +1,15 @@
+## Binary Tree
+
 - Q144. Binary Tree Preorder Traversal
 https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/
+
+- Swap Nodes [Algo]  
+_re-visit_; 2 versions of solutions
+https://www.hackerrank.com/challenges/swap-nodes-algo/problem  
+
+- Is This a Binary Search Tree?  
+_re-visit_; 2 versions of solutions
+https://www.hackerrank.com/challenges/is-binary-search-tree/problem
 
 ---
 
