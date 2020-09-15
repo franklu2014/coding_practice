@@ -109,6 +109,13 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 ---
 ## Don't have category yet but interesting
 
+- Organizing Containers of Balls (Python and Scala)  
+_interesting line of thought but not hard_
+https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
+
+- Queen's Attack (Python & Scala)  
+https://www.hackerrank.com/challenges/queens-attack-2/problem  
+
 - Non-Divisible Subset (evenly divisible)  
 https://www.hackerrank.com/challenges/non-divisible-subset/problem?isFullScreen=false
 
