@@ -12,6 +12,25 @@ _re-visit_; 2 versions of solutions
 https://www.hackerrank.com/challenges/is-binary-search-tree/problem
 
 ---
+## String manipulation (sliding window)
+
+- 3. Longest Substring Without Repeating Characters (Python & Scala)  
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+- 438. Find All Anagrams in a String  
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+- 30. Substring with Concatenation of All Words (sliding window)  
+https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+
+- 76. Minimum Window Substring (doubly sliding window)  
+_re-visit_  
+https://leetcode.com/problems/minimum-window-substring/
+
+- 438. Find All Anagrams in a String  
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+---
 
 - Q55. Jump Game  
 https://leetcode.com/problems/jump-game/submissions/
@@ -109,7 +128,7 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 ---
 ## Don't have category yet but interesting
 
-- Organizing Containers of Balls (Python and Scala)  
+- Organizing Containers of Balls (Python & Scala)  
 _interesting line of thought but not hard_
 https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
 
