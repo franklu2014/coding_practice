@@ -30,6 +30,26 @@ https://leetcode.com/problems/minimum-window-substring/
 - 438. Find All Anagrams in a String  
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
+- 424. Longest Repeating Character Replacement (Python & Scala; doubly sliding window)  
+https://leetcode.com/problems/longest-repeating-character-replacement/
+
+- 567. Permutation in String  
+https://leetcode.com/problems/permutation-in-string/
+
+---
+## Back-trace
+
+- 90. Subsets II  
+https://leetcode.com/problems/subsets-ii/
+
+- 78. Subsets  
+https://leetcode.com/submissions/detail/401935231/
+
+- 39. Combination Sum  
+https://leetcode.com/submissions/detail/401989806/
+
+- 40. Combination Sum II
+https://leetcode.com/submissions/detail/402096397/
 ---
 
 - Q55. Jump Game  
