@@ -39,16 +39,16 @@ https://leetcode.com/problems/permutation-in-string/
 ---
 ## Back-trace
 
-- 90. Subsets II  
+- Q90. Subsets II  
 https://leetcode.com/problems/subsets-ii/
 
-- 78. Subsets  
+- Q78. Subsets  
 https://leetcode.com/submissions/detail/401935231/
 
-- 39. Combination Sum  
+- Q39. Combination Sum  
 https://leetcode.com/submissions/detail/401989806/
 
-- 40. Combination Sum II
+- Q40. Combination Sum II
 https://leetcode.com/submissions/detail/402096397/
 ---
 
@@ -104,6 +104,11 @@ https://leetcode.com/problems/split-array-largest-sum/
 - Q875. Koko Eating Bananas
 https://leetcode.com/problems/koko-eating-bananas/submissions/
 
+- Q215. Kth Largest Element in an Array  
+_the 1036ms solution uses a supposedly $O(n)$ algo_  
+_the 64ms solution uses $O(\log n)$ algo_
+https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/
+
 ---
 ## DP questions
 
@@ -145,8 +150,17 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
             cnt[subtot] = 1 + cnt[subtot] if subtot in cnt else 1
         return ret
 ```
+
 ---
 ## Don't have category yet but interesting
+
+- Q52. N-Queens II  
+_very similar to N-Queens below_  
+https://leetcode.com/problems/n-queens-ii/
+
+- Q51. N-Queens  
+_more of an implementation test; not hard really_  
+https://leetcode.com/submissions/detail/402379417/
 
 - Organizing Containers of Balls (Python & Scala)  
 _interesting line of thought but not hard_
