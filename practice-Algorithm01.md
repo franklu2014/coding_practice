@@ -14,26 +14,26 @@ https://www.hackerrank.com/challenges/is-binary-search-tree/problem
 ---
 ## String manipulation (sliding window)
 
-- 3. Longest Substring Without Repeating Characters (Python & Scala)  
+- Q3. Longest Substring Without Repeating Characters (Python & Scala)  
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-- 438. Find All Anagrams in a String  
+- Q438. Find All Anagrams in a String  
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
-- 30. Substring with Concatenation of All Words (sliding window)  
+- Q30. Substring with Concatenation of All Words (sliding window)  
 https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 
-- 76. Minimum Window Substring (doubly sliding window)  
+- Q76. Minimum Window Substring (doubly sliding window)  
 _re-visit_  
 https://leetcode.com/problems/minimum-window-substring/
 
-- 438. Find All Anagrams in a String  
+- Q438. Find All Anagrams in a String  
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
-- 424. Longest Repeating Character Replacement (Python & Scala; doubly sliding window)  
+- Q424. Longest Repeating Character Replacement (Python & Scala; doubly sliding window)  
 https://leetcode.com/problems/longest-repeating-character-replacement/
 
-- 567. Permutation in String  
+- Q567. Permutation in String  
 https://leetcode.com/problems/permutation-in-string/
 
 ---
@@ -153,6 +153,31 @@ def numSubarraysWithSum(self, A: List[int], S: int) -> int:
 
 ---
 ## Don't have category yet but interesting
+
+- Dynamic Array  
+https://www.hackerrank.com/challenges/dynamic-array/submissions/code/179647633
+
+- Bigger is Greater  
+https://www.hackerrank.com/challenges/bigger-is-greater/submissions/code/181147729
+
+- Word Order  
+https://www.hackerrank.com/challenges/word-order/submissions/code/182869636
+
+- Maximize It!  
+_re-visit; my implementation of itertools.product_  
+https://www.hackerrank.com/challenges/maximize-it/submissions/code/182912139
+
+- Q678. Valid Parenthesis String  
+_2-stack solution; __TODO: DP solution___  
+https://leetcode.com/problems/valid-parenthesis-string/
+
+- Q785. Is Graph Bipartite?  
+  - my solution: https://leetcode.com/problems/is-graph-bipartite/submissions/
+  - elegant solution: https://leetcode.com/problems/is-graph-bipartite/discuss/119514/python-3-bfs-dfs-solutions
+
+- Q316. Remove Duplicate Letters  
+_re-visit; 2 sols: 36ms and 56ms_  
+https://leetcode.com/problems/remove-duplicate-letters/
 
 - Q52. N-Queens II  
 _very similar to N-Queens below_  
