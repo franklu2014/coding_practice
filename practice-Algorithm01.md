@@ -130,10 +130,6 @@ https://leetcode.com/problems/edit-distance/submissions/
 __should re-visit with Q10__; DP  
 https://leetcode.com/problems/wildcard-matching/submissions/
 
-- Q10. Regular Expression Matching
-__must re-visit__; spent long time to figure out; DP  
-_might exist a non-dp solution_
-https://leetcode.com/problems/regular-expression-matching/submissions/
 
 - Q930. Binary Subarrays With Sum
 __must re-visit__; *spent long time to figure out*  
